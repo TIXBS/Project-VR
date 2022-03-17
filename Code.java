@@ -1,6 +1,6 @@
 public class Code
 {
-
+	//I learned the various functions of GitKraken, including the ability to push and pull various branches so that multiple people can edit the same code and push necessary changes onto the main branch. From there, they can revise a file so that it contains the old code and any new improvements.
     interface PQuotient
     {
         void printQuotient(float x, float y);
