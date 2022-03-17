@@ -1,19 +1,10 @@
 public class Code
-<<<<<<< HEAD
 {
 
     interface PQuotient
     {
         void printQuotient(float x, float y);
     }
-
-    public Code()
-    {
-
-        PQuotient run = (x,y)-> System.out.printf("The quotient of %.3f and %.3f is : %.3f",x,y,x/y);
-        run.printQuotient(4.0f,6.0f);
-=======
-{
 
     interface PerfectSquare
     {
@@ -22,6 +13,9 @@ public class Code
 
     public Code()
     {
+		PQuotient run = (x,y)-> System.out.printf("The quotient of %.3f and %.3f is : %.3f",x,y,x/y);
+        run.printQuotient(4.0f,6.0f);
+
         PerfectSquare ps = (double x)->
         {
             double num = Math.sqrt(x);
@@ -32,7 +26,6 @@ public class Code
         System.out.println(ps.isPerfectSquare(64));
         System.out.println(ps.isPerfectSquare(5));
 
->>>>>>> Vagish
     }
     public static void main(String[]args)
     {
