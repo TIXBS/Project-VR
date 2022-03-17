@@ -1,6 +1,6 @@
 public class Code
 {
-
+	//I learned to push and pull using java -Vagish
     interface PQuotient
     {
         void printQuotient(float x, float y);
